@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             Kotline_featureTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "skype blue",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
