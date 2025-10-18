@@ -98,3 +98,9 @@ fun bai35(){
     var result = danhSach.indexOfFirst { it %2 ==0 }
     println("Chỉ số của phần tử đầu tiên chia hết cho 2 là :  $result mang giá trị:  ${danhSach.get(result)}" )
 }
+
+fun bai37(){
+
+}
+
+fun bai39(){}
