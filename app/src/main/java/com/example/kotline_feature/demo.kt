@@ -2,16 +2,10 @@ package com.example.kotline_feature
 
 
 fun  main(){
-    println("Demo kotlin")
+  println("Demo OOp")
 
-    //declare variables
-    //val: read only, var: mutable
-    val popcorn =5;
-    val hotdogs =7;
-    var customer =10;
+    val teo = Dog("Phong le");
 
-    //its value can be reassigned after declaration
-    customer = 8;
-
-    println(customer)
+    teo.name= "test changing";
+    println(teo.name)
 }
